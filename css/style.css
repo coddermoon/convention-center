@@ -72,7 +72,7 @@ transform: scale(1.1);
 color: #fff;
 
 }
-.card:hover::li ,span, p , h2 , .custom-button {
+.card:hover li  {
    color: #fff;
 
 }
