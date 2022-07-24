@@ -17,9 +17,9 @@ body{
     ;
 }
 
-h1,h2,h3,h4 .black{
+/* h1,h2,h3,h4 .black{
     color: #0A0826;
-}
+} */
 
 ul li{
     list-style: none;
@@ -69,9 +69,17 @@ i.fa-solid.fa-check {
 box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 border: none;
 transform: scale(1.1);
+color: #fff;
 
 }
-/* .card:hover li,p,h2,.card-title {
+.card:hover::li ,span, p , h2 , .custom-button {
    color: #fff;
 
-} */
+}
+
+
+@media (max-width:991px){
+    .card {
+        margin-bottom: 32px;
+    }
+}
